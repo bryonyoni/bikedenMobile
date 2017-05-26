@@ -11,39 +11,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Discover Your Ride."
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="41dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintVertical_bias="0.008" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="0dp"
-        android:layout_height="159dp"
-        app:srcCompat="@drawable/roadsterx"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Roadsters"
-        android:textColor="@color/colortext"
-        android:textAlignment="center"
-        android:textSize="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.252"
-        app:layout_constraintHorizontal_bias="0.502" />
+
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -54,46 +32,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515"
-        app:layout_constraintHorizontal_bias="0.014" />
+        app:layout_constraintVertical_bias="0.117"
+        app:layout_constraintHorizontal_bias="0.075" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Superikes"
-        android:textColor="@color/colorwhite"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
-        app:layout_constraintVertical_bias="0.518" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="0dp"
-        android:layout_height="171dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/motorcycleicons"
-        app:layout_constraintHorizontal_bias="0.232"
-        app:layout_constraintVertical_bias="0.92" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Touring Bikes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textColor="@color/colorwhite"
-        android:textSize="40dp"
-        app:layout_constraintVertical_bias="0.818" />
 
     <Button
         android:id="@+id/button1"
@@ -104,20 +47,29 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.813"
-        app:layout_constraintVertical_bias="0.531" />
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintVertical_bias="0.183" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Choose what suits you."
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.908"
-        app:layout_constraintVertical_bias="0.458" />
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="359dp"
+        android:layout_height="351dp"
+        app:srcCompat="@drawable/roadsterx"
+        tools:layout_editor_absoluteY="163dp"
+        tools:layout_editor_absoluteX="0dp" />
 
 </android.support.constraint.ConstraintLayout>
