@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class Bike extends AppCompatActivity implements View.OnClickListener{
+public class BikeActivity extends AppCompatActivity implements View.OnClickListener{
 //    @Bind(R.id.bikeImageView) ImageView mImageLabel;
 
     @Override
