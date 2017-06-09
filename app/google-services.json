@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "157725345604",
+    "firebase_url": "https://bikeden-6c6e3.firebaseio.com",
+    "project_id": "bikeden-6c6e3",
+    "storage_bucket": "bikeden-6c6e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157725345604:android:49d4a8bd42688947",
+        "android_client_info": {
+          "package_name": "com.bry.bikeden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157725345604-ra9ms1haajgvtedka7vplt813nq4o95q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bry.bikeden",
+            "certificate_hash": "0ab96cbe07439c5f39f03e173eea504194eeb4aa"
+          }
+        },
+        {
+          "client_id": "157725345604-q4ki66qps1vhjilq1nocdt2rja9fqn4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_Sp3FfEiPd3opL8Cxh4pjfsVjUC6jUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157725345604-q4ki66qps1vhjilq1nocdt2rja9fqn4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
